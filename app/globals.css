@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Default theme (fallback) */
+  --primary: 37 99 235; /* blue-600 in "R G B" for Tailwind opacity support */
+}
+
+/* A few utility-ish base styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-white text-slate-900 antialiased;
+}
+
+/* Optional: consistent focus ring using primary */
+.focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 4px rgb(var(--primary) / 0.25);
+}
+

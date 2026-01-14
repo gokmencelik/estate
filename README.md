@@ -91,4 +91,4 @@ Varsayılan demo şema “public read” olduğu için multi-tenant izolasyon sa
 Bu sayede:
 - GM admin’i sadece GM ilanlarını görür/yazar
 - X admin’i sadece X ilanlarını görür/yazar
-- Public site verisi DB’den direkt okunmaz; Next.js server tarafı (service role) tenant’a göre filtreli getirir.
+- Public site verisi DB’den direkt okunmaz; Next.js server tarafı (service role) tenant’a göre filtreli getirir. test
